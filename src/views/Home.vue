@@ -10,7 +10,7 @@
 export default {
   name: 'Home',
   methods: {
-    quit: function() {
+    quit: function () {
       window.sessionStorage.clear()
       this.$router.push('/login')
     }
